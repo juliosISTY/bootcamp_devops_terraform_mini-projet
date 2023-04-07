@@ -9,3 +9,15 @@
 - Créer un dossier app qui va utiliser les 4 modules pour déployer une ec2, bien-sûr vous allez surcharger les variables afin de rendre votre application plus dynamique
 - A la fin du déploiement, installer nginx et enregistrer l'ip publique dans un fichier nommé ip_ec2.txt (ces éléments sont à intégrer dans le module ec2)
 
+## Terraform commands:
+
+- **terraform fmt** to Reformat your configuration in the standard style
+- **terraform init** to Prepare your working directory for other commands
+- **terraform plan** to Show changes required by the current configuration
+- **terraform apply** to Create or update infrastructure
+- **terraform destroy** to Destroy previously-created infrastructure
+
+### Notes:
+
+To run the commands above, you need to enter to the folder app before
+
